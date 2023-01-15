@@ -3,6 +3,7 @@
     height: 510px;
     border: 1px solid #95A0A7;
     border-radius: 8px;
+    position: relative;
 }
 
 .product-info {
@@ -10,7 +11,7 @@
 }
 
 .product-info p {
-    margin-bottom: 7px;
+    margin-bottom: 0;
 }
 
 .product-name {
@@ -34,6 +35,8 @@
     background: #FFE0B3;
     border: 0;
     border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
 }
 
 .btn-cart:hover {
